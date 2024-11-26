@@ -1,0 +1,154 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+}
+#fondo{
+    width: 100px;
+    border: 5px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+#portada{
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+h1 a{
+    text-decoration: none; 
+    color: white; 
+}
+#intro{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center; 
+    font-family: 'Lobster', cursive;
+}
+nav ul li{
+    margin: 30px;
+}
+nav ul li a{
+    text-decoration: none; 
+    color: white;
+    border-radius: 30px; 
+}
+nav ul li a:hover{
+    background-color: black; 
+    color: white; 
+}
+#messi{
+    max-width: 50%; 
+    border: 2px solid white;
+}
+#articulo1{
+    text-align: center;
+    margin-top: 20px; 
+    color: white;
+}
+h2{
+    font-weight: bold; 
+    font-size: 2em;
+}
+.articulo2{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: left; 
+    margin: 60px auto; 
+    max-width: 1000px; 
+    color: white;
+}
+#articulo3{
+    text-align: center;
+    color: white;
+}
+.futbol{
+    max-width: 200px; 
+    height: auto; 
+    margin: 30px;
+}
+#messi2{
+    border: 1px solid white;
+}
+
+#iconos{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#iconos img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 1px solid black;
+}
+#iconos a:hover{
+    background-color: black; 
+    color: white; 
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.imagen{
+    border-radius: 10px;
+    width: 300px;
+    margin: 30px;
+    transition-timing-function: ease;
+    filter: grayscale(100%); 
+    box-shadow: 10px 10px 10px black; 
+}
+.imagenes div {
+    text-align: center; 
+}
+.imagen:hover {
+    filter: grayscale(0%);
+}
+#contenedor3 {
+    text-align: center; 
+    margin: 0 auto;
+    color: white;
+}
+iframe{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
